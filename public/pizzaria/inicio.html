@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Início — Pizza Lenha &amp; Brasa</title>
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700,800|poppins:500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="app-body">
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="app-header__logo">
+        <img src="assets/logo-pizzaria.png" alt="Logo Pizza Lenha e Brasa" width="36" height="36">
+      </div>
+      <h1 class="app-header__title">Pizzaria Lenha &amp; Brasa</h1>
+    </header>
+
+    <div class="app-subnav">
+      <div class="app-subnav__left">
+        <a href="index.html" class="app-subnav__back" aria-label="Voltar">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </a>
+        <span class="app-subnav__name">Pizza Lenha &amp; Brasa</span>
+        <button type="button" class="app-subnav__filter">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+          </svg>
+          Popularidade
+        </button>
+      </div>
+      <nav class="app-subnav__links" aria-label="Páginas">
+        <a href="sobre.html">Sobre</a>
+        <span class="app-subnav__sep" aria-hidden="true">·</span>
+        <a href="promocao.html">Promoção</a>
+      </nav>
+    </div>
+
+    <main class="app-main" id="conteudo-principal">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <span class="hero__badge">OFERTA ESPECIAL</span>
+          <h2 id="hero-title" class="hero__title">Tradizione Italiana</h2>
+          <p class="hero__text">30% OFF em todas as pizzas clássicas!</p>
+          <a class="hero__cta" href="promocao.html">Aproveitar</a>
+        </div>
+      </section>
+
+      <section class="categories" aria-labelledby="categorias-titulo">
+        <div class="section-head">
+          <h2 id="categorias-titulo">Categorias</h2>
+          <a href="cardapio.html">Ver tudo</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Margherita DOC" width="600" height="450" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Margherita DOC</h3>
+              <div class="product-card__row">
+                <p class="product-card__price">R$ 50,00</p>
+                <button type="button" class="product-card__add-icon" aria-label="Adicionar rápido">+</button>
+              </div>
+              <button type="button" class="product-card__add-btn">Adicionar</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Diavola Pepperoni" width="600" height="450" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Diavola Pepperoni</h3>
+              <div class="product-card__row">
+                <p class="product-card__price">R$ 52,00</p>
+              </div>
+              <button type="button" class="product-card__add-btn">Adicionar</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Quattro Formaggi" width="600" height="450" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Quattro Formaggi</h3>
+              <div class="product-card__row">
+                <p class="product-card__price">R$ 56,00</p>
+              </div>
+              <button type="button" class="product-card__add-btn">Adicionar</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section" aria-labelledby="menu-heading">
+        <div class="section-head">
+          <h2 id="menu-heading" class="section-head__title">Destaques do cardápio</h2>
+          <a href="cardapio.html" class="section-head__link">Ver tudo</a>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card__media">
+              <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Margherita Tradicionale" width="800" height="500" loading="lazy">
+              <span class="menu-card__badge menu-card__badge--green">Mais pedida</span>
+            </div>
+            <div class="menu-card__body">
+              <div class="menu-card__headline">
+                <h3 class="menu-card__title">Margherita Tradicionale</h3>
+                <p class="menu-card__price">R$ 64,90</p>
+              </div>
+              <p class="menu-card__desc">Molho de tomate San Marzano, mussarela de búfala e manjericão fresco.</p>
+              <div class="menu-card__tags">
+                <span class="tag tag--veg">Vegetariana</span>
+                <span class="menu-card__rating" title="Avaliação">★ 4.9 <span class="menu-card__rating-count">(120+)</span></span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card__media">
+              <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Calabresa Premium" width="800" height="500" loading="lazy">
+              <button type="button" class="menu-card__fav" aria-label="Favoritar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>
+              </button>
+            </div>
+            <div class="menu-card__body">
+              <div class="menu-card__headline">
+                <h3 class="menu-card__title">Calabresa Premium</h3>
+              </div>
+              <p class="menu-card__desc">Calabresa artesanal, cebola roxa e azeitonas pretas.</p>
+              <div class="menu-card__footer">
+                <p class="menu-card__price menu-card__price--inline">R$ 58,00</p>
+                <button type="button" class="menu-card__add" aria-label="Adicionar ao pedido">+</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav bottom-nav--floating" aria-label="Navegação principal">
+      <a href="inicio.html" aria-current="page">
+        <span class="bottom-nav__icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 10.5L12 3l9 7.5V20a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1v-9.5z"/>
+          </svg>
+        </span>
+        Início
+      </a>
+      <a href="cardapio.html">
+        <span class="bottom-nav__icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 4v11c0 2 1.5 3 3 3h0c1.5 0 3-1 3-3V4"/>
+            <path d="M6 4c0-1.5 1-3 3-3s3 1.5 3 3"/>
+            <path d="M17 3v18"/>
+            <path d="M15 21h4"/>
+          </svg>
+        </span>
+        Cardápio
+      </a>
+      <a href="pedidos.html">
+        <span class="bottom-nav__icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/>
+            <path d="M9 5a2 2 0 012-2h2a2 2 0 012 2v0a2 2 0 01-2 2H11a2 2 0 01-2-2v0z"/>
+            <path d="M9 12h6"/>
+            <path d="M9 16h6"/>
+          </svg>
+        </span>
+        Pedidos
+      </a>
+      <a href="perfil.html">
+        <span class="bottom-nav__icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </span>
+        Perfil
+      </a>
+    </nav>
+  </div>
+</body>
+</html>
